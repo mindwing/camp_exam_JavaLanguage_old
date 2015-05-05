@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.camp_exam_javalanguage.MainActivity" >
+    tools:context="kr.mindwing.camp_exam_javalanguage.MainActivity" >
 
     <TextView
         android:id="@+id/result"

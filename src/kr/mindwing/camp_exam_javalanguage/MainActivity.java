@@ -1,4 +1,4 @@
-package com.example.camp_exam_javalanguage;
+package kr.mindwing.camp_exam_javalanguage;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 
 		int a = 5;
 		int b = 10;
-		
+
 		int y = a * 3 + b;
 
 		retVal = "a = 5\nb = 10\n\na * 3 + b = " + y;

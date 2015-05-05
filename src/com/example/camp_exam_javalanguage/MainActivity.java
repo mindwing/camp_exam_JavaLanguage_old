@@ -21,11 +21,11 @@ public class MainActivity extends Activity {
 	protected void onResume() {
 		super.onResume();
 
-		String result = getCalcTest();
+		String result = getCalcResult();
 		resultView.setText(result);
 	}
 
-	private String getCalcTest() {
+	private String getCalcResult() {
 		String retVal = null;
 
 		int a = 5;
@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		
 		int y = a * 3 + b;
 
-		retVal = "a * 3 + b = " + Integer.toString(y);
+		retVal = "a = 5\nb = 10\n\na * 3 + b = " + y;
 
 		return retVal;
 	}
